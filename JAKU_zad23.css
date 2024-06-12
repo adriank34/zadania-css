@@ -1,0 +1,38 @@
+p#pogrubienie_jakubek {
+    font-size: 32px; 
+    color: #8b57d1;
+}
+
+p#pochylona_jakubek {
+    font-size: 37pt; 
+    color: #efbb6d; 
+    font-style: italic;
+}
+
+p#index_gorny_jakubek {
+    font-size: 1.2cm; 
+    color: #9f891d;
+    vertical-align: super;
+}
+
+p#index_dolny_jakubek {
+    font-size: 1.9cm; 
+    color: rgb(65%, 87%, 91%); 
+    vertical-align: sub;
+}
+
+p#mono_jakubek {
+    font-size: 42px; 
+    color: #1fd96d; 
+    font-family: "Courier New", monospace;
+}
+
+p#powiekszenie_jakubek {
+    font-size: 45px;
+    color: #59399fa; 
+}
+
+p#pomniejszenie_jakubek {
+    font-size: 10px; 
+    color: rgb(70%, 68%, 30%);
+}
