@@ -1,0 +1,17 @@
+/* Styl zewnętrzny dla H3 */
+h3 {
+    width: 250pt;
+	text-align: right;
+    height: 3cm;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #FF6347; 
+    border : dotted  #800080;
+    text-align: center;
+    box-sizing: border-box; 
+    font-size: 12px; 
+    overflow: hidden; 
+}
+
+
+/* Adrian Jakubek, Klasa: 3, Grupa: 1 */
