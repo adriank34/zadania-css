@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Model Pudełkowy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;          
+        }
+
+        .box-model {
+            position: relative;
+            width: 400px; 
+            margin: 0 auto;
+        }
+
+        
+        .content {
+            width: 150px;
+            height: 100px;
+            border: 2px solid brown;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        
+        .padding-box {
+            width: 250px;
+            height: 160px;
+            padding: 30px; 
+            border: 2px dashed brown;
+            box-sizing: border-box;
+            margin: 30px auto; 
+        }
+
+        
+        .border-box {
+            width: 350px;
+            height: 260px;
+            border: 2px solid brown;
+            padding: 30px;
+            margin: 30px auto; /* Dodajemy odstęp między border a padding */
+            box-sizing: border-box;
+        }
+
+        
+        .margin-box {
+            width: 450px;
+            height: 320px;
+            border: 2px dashed orange;
+            margin: 30px auto; 
+        }
+
+        
+        .label {
+            position: absolute;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+      
+        .label-margin {
+            top: 5px;  
+            left: 200px;
+        }
+
+        .label-border {
+            top: 50px;
+            left: 200px;
+        }
+
+        .label-padding {
+            top: 150px;  
+            left: 200px;
+        }
+
+        .label-content {
+            top: 100px;
+            left: 200px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            background-color: yellow;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-model">
+        <div class="label label-margin">margin</div>
+        <div class="label label-border">border</div>
+        <div class="label label-padding">content</div>
+        <div class="label label-content">padding</div>
+
+        <!-- Największa ramka (margin) -->
+        <div class="margin-box">
+            <!-- Ramka border -->
+            <div class="border-box">
+                <!-- Ramka padding -->
+                <div class="padding-box">
+                    <!-- Ramka content -->
+                    <div class="content">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Box model – model pudełkowy obszaru w dokumencie HTML
+    </div>
+
+</body>
+</html>
